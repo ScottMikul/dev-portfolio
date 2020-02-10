@@ -2,8 +2,9 @@ i{
     font-size: 4em;
 }
 
-.devicon-amazonwebservices-original{
-    width: 24px;
-    height:24px;
-
+ul{
+    display: block;
+}
+li{
+    display: inline-block;
 }
