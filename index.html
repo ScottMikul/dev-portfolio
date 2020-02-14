@@ -39,7 +39,6 @@
 
 <body>
     <nav class="navbar navbar-light bg-light mx-auto d-md-none">
-       
         <ul class="navbar-nav flex-row mx-auto justify-content-center text-center">
             <li class="nav-item m-3">
                 <a class="nav-link" href="#">About</a>
@@ -61,32 +60,30 @@
 
     <div class="container-fluid">
         <div class="row">
-
- 
-
-
-                <nav class="d-none d-md-block navbar-light bg-light col-2" style="height:100vh">
-                    <div class="nav bd-sidenav flex-column justify-content-center" style="height:100vh" >
-                        <a class="navbar-brand" href="#">Home Icon</a>
-                        <div>About</div>
-                        <div>Resume</div>
-                        <div>Work</div>
-                        <div>Contact </div>
-                    </ul> 
-
-                </nav>
-            <main class="col-9">
-            <h3> About me</h3>
-            <p>
-                Hi! I'm Scotty I'm a full stack developer from Atlanta Georgia. I'm a high energy, good attitude kind of guy who
-                enjoys comedy. I love coding, learning new things and overcomming challenges.
-            </p>
-            <p>
-                I have quite a bit of coding education and a bit of work experience too. I graduated Georgia Southern with a BS
-                in computer science, got a certificate with teamtreehouse in java web development, and more recently graduated from a Full Stack Development bootcamp with Georgia Tech. I had worked as a developer with Home Depot for about 2 and a half years.
-            </p>
+            <nav class="d-none d-md-block navbar-light bg-light col-md-2 position-fixed" style="height:100vh">
+                <div class="nav bd-sidenav flex-column justify-content-center" style="height:100vh" >
+                    <a class="navbar-brand" href="#">Home Icon</a>
+                    <div>About</div>
+                    <div>Resume</div>
+                    <div>Work</div>
+                    <div>Contact </div>
+                </ul> 
+            </nav>
+            <main class="offset-md-3 col-12 col-md-10">
+            <div style="height:500px" class=" d-flex flex-column justify-content-center">
+                
+            <h3 class="text-center"> About me</h3>
+                <p>
+                    Hi! I'm Scotty I'm a full stack developer from Atlanta Georgia. I'm a high energy, good attitude kind of guy who
+                    enjoys comedy. I love coding, learning new things and overcomming challenges.
+                </p>
+                <p>
+                    I have quite a bit of coding education and a bit of work experience too. I graduated Georgia Southern with a BS
+                    in computer science, got a certificate with teamtreehouse in java web development, and more recently graduated from a Full Stack Development bootcamp with Georgia Tech. I had worked as a developer with Home Depot for about 2 and a half years.
+                </p>
+            </div>
         
-            <h3>But who am I really?</h3>
+            <h3 class="text-center">But who am I really?</h3>
         
             <p>I actually grew up in Marietta Georgia and went to a high school here too. I've been pretty interested in all kinds of sports and while I have a huge passion for video games, I've also been camping quite a bit growing up. I spent some time with the Boy Scouts and that's where I learned the most about camping. I even made it to Eagle Scout. 
         
@@ -96,39 +93,44 @@
                 I play quite a bit of video games. Currently my favorite is card game called Hearthstone, but I play quite a bit of others too. Recently I've grown pretty fond of my fitbit and I've been very focused on tracking calories and maintaining a healthy weight. I'm doing a bit of running. I've signed up for the bubble run and the blacklight run this year. 
             </p>
         
-        
-            <ul>
-                <li><i class="devicon-git-plain colored"></i></li>
-                <li><i class="devicon-nodejs-plain colored"></i></li>
-                <li> <i class="devicon-javascript-plain colored"></i></li>
-                <li><i class="devicon-bootstrap-plain colored"></i></li>
-                <li><i class="devicon-css3-plain colored"></i></li>
-                <li><i class="devicon-html5-plain colored"></i></li>
-                <li><i class="devicon-react-original colored"></i></li>
-                <li><i class="devicon-express-original colored"></i></li>
-                <li><i class="devicon-mongodb-plain colored"></i></li>
-                <li><i class="devicon-visualstudio-plain colored"></i></li>
-                <li><i class="devicon-jquery-plain colored"></i></li>
-                <li><i class="devicon-mysql-plain colored"></i></li>
-                <li><i class="devicon-mocha-plain colored"></i></li>
-                <li><i class="devicon-google-plain colored"></i></li>
-                <li><i class="devicon-java-plain colored"></i></li>
-                <li><i class="devicon-sequelize-plain colored"></i></li>
-                <li><i class="devicon-linux-plain colored"></i></li>
-                <li><i class="devicon-ssh-plain colored"></i></li>
-                <li><i class="devicon-amazonwebservices-original colored"></i></li>
-                <li><i class="devicon-docker-plain colored"></i></li>
-        
-            </ul>
-        
-        
-            contact me or add me on
-            <ul>
-                <li><i class="fab fa-linkedin"></i></li>
-                <li><i class="fab fa-github-square"></i></li>
-                <li><i class="fab fa-twitter"></i></li>
-                <li><i class="fas fa-file-alt"></i>  </li>
-                <li><i class="fas fa-envelope"></i></li>
+            <div class="row text-center mt-4">
+                <div class="col-md-3 col-12"><i class="devicon-git-plain colored"></i></div>
+                <div class="col-md-3 col-12"><i class="devicon-nodejs-plain colored"></i></div>
+                <div class="col-md-3 col-12"><i class="devicon-javascript-plain colored"></i></div>
+                <div class="col-md-3 col-12"><i class="devicon-bootstrap-plain colored"></i></div>
+            </div>
+            <div class="row text-center mt-4">
+                <div class="col-md-3 col-12"><i class="devicon-css3-plain colored"></i></div>
+                <div class="col-md-3 col-12"><i class="devicon-html5-plain colored"></i></div>
+                <div class="col-md-3 col-12"><i class="devicon-react-original colored"></i></div>
+                <div class="col-md-3 col-12"><i class="devicon-express-original colored"></i></div>
+            </div>
+            <div class="row text-center mt-4">
+                <div class="col-md-3 col-12"><i class="devicon-mongodb-plain colored"></i></div>
+                <div class="col-md-3 col-12"><i class="devicon-visualstudio-plain colored"></i></div>
+                <div class="col-md-3 col-12"><i class="devicon-jquery-plain colored"></i></div>
+                <div class="col-md-3 col-12"><i class="devicon-mysql-plain colored"></i></div>
+            </div>
+            <div class="row text-center mt-4">
+                <div class="col-md-3 col-12"><i class="devicon-mocha-plain colored"></i></div>
+                <div class="col-md-3 col-12"><i class="devicon-google-plain colored"></i></div>
+                <div class="col-md-3 col-12"><i class="devicon-java-plain colored"></i></div>
+                <div class="col-md-3 col-12"><i class="devicon-sequelize-plain colored"></i></div>
+            </div>
+            <div class="row text-center mt-4">
+                <div class="col-md-3 col-12"><i class="devicon-linux-plain colored"></i></div>
+                <div class="col-md-3 col-12"><i class="devicon-ssh-plain colored"></i></div>
+                <div class="col-md-3 col-12"><i class="devicon-amazonwebservices-original colored"></i></div>
+                <div class="col-md-3 col-12"><i class="devicon-docker-plain colored"></i></div>
+            </div>
+
+            <h3 class="text-center mt-4">contact me or add me on</h3>
+            <ul class="row d-flex justify-content-center mt-3">
+                <li class="col-md-2"><a href="https://www.linkedin.com/in/scottmikul"><i class="fab fa-linkedin"></i></a></li>
+                <li class="col-md-2"><a href="https://github.com/ScottMikul"><i class="fab fa-github-square"></i></a></li>
+                <li class="col-md-2"><a href="https://twitter.com/scottymikul1"><i class="fab fa-twitter"></i></a></li>
+                <li class="col-md-2"><a href="assets/files/ScottyMikulFullStackDev2020.pdf"><i class="fas fa-file-alt"></i></a>  </li>
+                <li class="col-md-2"><a href="mailto:scottymikul@gmail.com"><i class="fas fa-envelope"></i></a></li>
             </ul>
             </main>
 
