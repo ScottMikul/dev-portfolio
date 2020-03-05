@@ -8,3 +8,14 @@ ul{
 li{
     display: inline-block;
 }
+
+#maintitle{
+    height:1em;
+}
+
+.setheightto40vh{
+    height:40vh;
+}
+.setheightto100vh{
+    height:100vh;
+}
