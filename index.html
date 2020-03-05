@@ -44,13 +44,10 @@
                 <a class="nav-link" href="#">About</a>
             </li>
             <li class="nav-item m-3">
-                <a class="nav-link" href="#">Resume</a>
+                <a class="nav-link" href="#">Recent Projects</a>
             </li>
             <li>
-                <a class="navbar-brand" href="#">Home Icon</a>
-            </li>
-            <li class="nav-item m-3">
-                <a class="nav-link " href="#">Work</a>
+                <a class="navbar-brand" href="#">Technology Stack</a>
             </li>
             <li class="nav-item m-3">
                 <a class="nav-link " href="#">Contact</a>
@@ -62,17 +59,25 @@
         <div class="row">
             <nav class="d-none d-md-block navbar-light bg-light col-md-2 position-fixed" style="height:100vh">
                 <div class="nav bd-sidenav flex-column justify-content-center" style="height:100vh" >
-                    <a class="navbar-brand" href="#">Home Icon</a>
-                    <div>About</div>
-                    <div>Resume</div>
-                    <div>Work</div>
-                    <div>Contact </div>
+                    <a class="navbar-brand" href="#home">Home Icon</a>
+                    <div><a href="#profile" >About</a></div>
+                    <div><a href="#projects">Recent Projects</a></div>
+                    <div><a href="#technologystack">Technology Stack</a></div>
+                    <div><a href="#contact">Contact</a> </div>
                 </ul> 
             </nav>
             <main class="offset-md-2 col-12 col-md-10">
-            <div style="height:500px" class=" d-flex flex-column justify-content-center">
-                
-            <h3 class="text-center"> About me</h3>
+
+            <div id="home"></div>
+            <div class="setheightto40vh"></div>
+            <h1 class="text-center">Scotty Mikul</h1>
+            <div id="maintitle" class="text-center"></div>
+            <div class="setheightto40vh"></div>
+
+            <div class=" d-flex flex-column justify-content-center setheightto100vh" >
+
+            <h3 class="text-center " id="profile" > About me</h3>
+
                 <p>
                     Hi! I'm Scotty I'm a full stack developer from Atlanta Georgia. I'm a high energy, good attitude kind of guy who
                     enjoys comedy. I love coding, learning new things and overcomming challenges.
@@ -93,6 +98,8 @@
                 I play quite a bit of video games. Currently my favorite is card game called Hearthstone, but I play quite a bit of others too. Recently I've grown pretty fond of my fitbit and I've been very focused on tracking calories and maintaining a healthy weight. I'm doing a bit of running. I've signed up for the bubble run and the blacklight run this year. 
             </p>
         
+            <h3 class="text-center" id="projects">Most recent Projects</h3>            
+            <h3 class="text-center" id="technologystack">Technologies Strongest with</h3>
             <div class="row text-center mt-4">
                 <div class="col-md-3 col-12"><i class="devicon-git-plain colored"></i></div>
                 <div class="col-md-3 col-12"><i class="devicon-nodejs-plain colored"></i></div>
@@ -124,7 +131,7 @@
                 <div class="col-md-3 col-12"><i class="devicon-docker-plain colored"></i></div>
             </div>
 
-            <h3 class="text-center mt-4">contact me or add me on</h3>
+            <h3 class="text-center mt-4" id="contact">contact me or add me on</h3>
             <ul class="row d-flex justify-content-center mt-3">
                 <li class="col-md-2"><a href="https://www.linkedin.com/in/scottmikul"><i class="fab fa-linkedin"></i></a></li>
                 <li class="col-md-2"><a href="https://github.com/ScottMikul"><i class="fab fa-github-square"></i></a></li>
