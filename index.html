@@ -8,8 +8,7 @@
     <title>Scotty Mikul</title>
 
     <!-- bootstrap css -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" >
 
     <!-- fontawesome cdn https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
@@ -38,40 +37,42 @@
 </head>
 
 <body>
+    <!-- top navbar for small screens-->
     <nav class="navbar navbar-light bg-light mx-auto d-md-none">
         <ul class="navbar-nav flex-row mx-auto justify-content-center text-center">
             <li class="nav-item m-3">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item m-3">
-                <a class="nav-link" href="#">Resume</a>
+                <a class="nav-link" href="#resume">Resume</a>
             </li>
-            <li>
-                <a class="navbar-brand" href="#">Home Icon</a>
-            </li>
-            <li class="nav-item m-3">
-                <a class="nav-link " href="#">Work</a>
+            <li class=" m-3 mr-4">
+                <a class="navbar-brand " href="#home">Home Icon</a>
             </li>
             <li class="nav-item m-3">
-                <a class="nav-link " href="#">Contact</a>
+                <a class="nav-link " href="#work">Work</a>
+            </li>
+            <li class="nav-item m-3">
+                <a class="nav-link " href="#contact">Contact</a>
             </li>
         </ul>
       </nav>
-
+            
     <div class="container-fluid">
         <div class="row">
+            <!-- side navbar for medium screens-->
             <nav class="d-none d-md-block navbar-light bg-light col-md-2 position-fixed" style="height:100vh">
                 <div class="nav bd-sidenav flex-column justify-content-center" style="height:100vh" >
-                    <a class="navbar-brand" href="#">Home Icon</a>
-                    <div>About</div>
-                    <div>Resume</div>
-                    <div>Work</div>
-                    <div>Contact </div>
+                    <a class="navbar-brand" href="#home">Home Icon</a>
+                    <div> <a href = "#about" >About </a></div>
+                    <div><a href = "#resume" > Resume </a></div>
+                    <div><a href = "#work" >Work </a></div>
+                    <div> <a href = "#contact" >Contact</a> </div>
                 </ul> 
             </nav>
             <main class="offset-md-2 col-12 col-md-10">
             <div class=" d-flex flex-column justify-content-center">
-
+                <div class="add40vh" id="home"></div>
                 <h1 class="text-center">Scotty Mikul</h1>
                 <div id="subtitle" class="text-center"></div>
             <div class="add40vh" id="about"></div>
@@ -79,6 +80,7 @@
                 <p>
                     Hi! I'm Scotty I'm a full stack developer from Atlanta Georgia. I'm a high energy, good attitude kind of guy who
                     enjoys comedy. I love coding, learning new things and overcomming challenges.
+                    <img src="./assets/images/portfolio-pic.jpg" alt="portfolio-pic" height="180" width="215" >
                 </p>
                 <p>
                     I have quite a bit of coding education and a bit of work experience too. I graduated Georgia Southern with a BS
@@ -90,7 +92,7 @@
             <h3 class="text-center">But who am I really?</h3>
             
         
-            <p>I actually grew up in Marietta Georgia and went to a high school here too. I've been pretty interested in all kinds of sports and while I have a huge passion for video games, I've also been camping quite a bit growing up. I spent some time with the Boy Scouts and that's where I learned the most about camping. I even made it to Eagle Scout. 
+            <p>I grew up in Marietta Georgia and went to a high school here too. I've been pretty interested in all kinds of sports and while I have a huge passion for video games, I've also been camping quite a bit growing up. I spent some time with the Boy Scouts and that's where I learned the most about camping. I even made it to Eagle Scout. 
         
             </p>
         
@@ -103,46 +105,45 @@
             <h3 class="text-center">Recent Work</h3>
 
             <div id="work">
-
             </div>
 
             <div class="row text-center mt-4">
-                <div class="col-md-3 col-12"><i class="devicon-git-plain colored"></i></div>
-                <div class="col-md-3 col-12"><i class="devicon-nodejs-plain colored"></i></div>
-                <div class="col-md-3 col-12"><i class="devicon-javascript-plain colored"></i></div>
-                <div class="col-md-3 col-12"><i class="devicon-bootstrap-plain colored"></i></div>
+                <div class="col-3"><i class="devicon-git-plain colored"></i></div>
+                <div class="col-3"><i class="devicon-nodejs-plain colored"></i></div>
+                <div class="col-3"><i class="devicon-javascript-plain colored"></i></div>
+                <div class="col-3"><i class="devicon-bootstrap-plain colored"></i></div>
             </div>
             <div class="row text-center mt-4">
-                <div class="col-md-3 col-12"><i class="devicon-css3-plain colored"></i></div>
-                <div class="col-md-3 col-12"><i class="devicon-html5-plain colored"></i></div>
-                <div class="col-md-3 col-12"><i class="devicon-react-original colored"></i></div>
-                <div class="col-md-3 col-12"><i class="devicon-express-original colored"></i></div>
+                <div class="col-3"><i class="devicon-css3-plain colored"></i></div>
+                <div class="col-3"><i class="devicon-html5-plain colored"></i></div>
+                <div class="col-3"><i class="devicon-react-original colored"></i></div>
+                <div class="col-3"><i class="devicon-express-original colored"></i></div>
             </div>
             <div class="row text-center mt-4">
-                <div class="col-md-3 col-12"><i class="devicon-mongodb-plain colored"></i></div>
-                <div class="col-md-3 col-12"><i class="devicon-visualstudio-plain colored"></i></div>
-                <div class="col-md-3 col-12"><i class="devicon-jquery-plain colored"></i></div>
-                <div class="col-md-3 col-12"><i class="devicon-mysql-plain colored"></i></div>
+                <div class="col-3"><i class="devicon-mongodb-plain colored"></i></div>
+                <div class="col-3"><i class="devicon-visualstudio-plain colored"></i></div>
+                <div class="col-3"><i class="devicon-jquery-plain colored"></i></div>
+                <div class="col-3"><i class="devicon-mysql-plain colored"></i></div>
             </div>
             <div class="row text-center mt-4">
-                <div class="col-md-3 col-12"><i class="devicon-mocha-plain colored"></i></div>
-                <div class="col-md-3 col-12"><i class="devicon-google-plain colored"></i></div>
-                <div class="col-md-3 col-12"><i class="devicon-java-plain colored"></i></div>
-                <div class="col-md-3 col-12"><i class="devicon-sequelize-plain colored"></i></div>
+                <div class="col-3"><i class="devicon-mocha-plain colored"></i></div>
+                <div class="col-3"><i class="devicon-google-plain colored"></i></div>
+                <div class="col-3"><i class="devicon-java-plain colored"></i></div>
+                <div class="col-3"><i class="devicon-sequelize-plain colored"></i></div>
             </div>
             <div class="row text-center mt-4">
-                <div class="col-md-3 col-12"><i class="devicon-linux-plain colored"></i></div>
-                <div class="col-md-3 col-12"><i class="devicon-ssh-plain colored"></i></div>
-                <div class="col-md-3 col-12"><i class="devicon-amazonwebservices-original colored"></i></div>
-                <div class="col-md-3 col-12"><i class="devicon-docker-plain colored"></i></div>
+                <div class="col-3"><i class="devicon-linux-plain colored"></i></div>
+                <div class="col-3"><i class="devicon-ssh-plain colored"></i></div>
+                <div class="col-3"><i class="devicon-amazonwebservices-original colored"></i></div>
+                <div class="col-3"><i class="devicon-docker-plain colored"></i></div>
             </div>
-            <h3 class="text-center mt-4">contact me or add me on</h3>
+            <h3 class="text-center mt-4" id="contact">contact me or add me on</h3>
             <ul class="row d-flex justify-content-center mt-3">
-                <li class="col-md-2"><a href="https://www.linkedin.com/in/scottmikul"><i class="fab fa-linkedin"></i></a></li>
-                <li class="col-md-2"><a href="https://github.com/ScottMikul"><i class="fab fa-github-square"></i></a></li>
-                <li class="col-md-2"><a href="https://twitter.com/scottymikul1"><i class="fab fa-twitter"></i></a></li>
-                <li class="col-md-2"><a href="assets/files/ScottyMikulFullStackDev2020.pdf"><i class="fas fa-file-alt"></i></a>  </li>
-                <li class="col-md-2"><a href="mailto:scottymikul@gmail.com"><i class="fas fa-envelope"></i></a></li>
+                <li class="col-2"><a href="https://www.linkedin.com/in/scottmikul"><i class="fab fa-linkedin"></i></a></li>
+                <li class="col-2"><a href="https://github.com/ScottMikul"><i class="fab fa-github-square"></i></a></li>
+                <li class="col-2"><a href="https://twitter.com/scottymikul1"><i class="fab fa-twitter"></i></a></li>
+                <li class="col-2"><a href="assets/files/ScottyMikulFullStackDev2020.pdf"><i class="fas fa-file-alt"></i></a>  </li>
+                <li class="col-2"><a href="mailto:scottymikul@gmail.com"><i class="fas fa-envelope"></i></a></li>
             </ul>
 
             </main>

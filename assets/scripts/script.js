@@ -1,4 +1,6 @@
 $(()=>{
+
+    //animate the subtitle of the title
     let words = ["Gamer", "Adventurer", "Professional IT Developer"]
     let txt = words[0];
     let word = "";
@@ -23,18 +25,37 @@ $(()=>{
     }
     typeWriter();
 
+
+    //render the recent projects portion of the page
     recentProjects = () => {
         let projects = [
-            new project("Password Generator", "../assets/images/password-generator.png", "Create any a customized and secure password.")
+            new project("Password Generator", "./assets/images/password-generator.png", "Create any a customized and secure password.")
         ]
         console.log(projects);
         projects.forEach(item => {
-            console.log("we in there");
 
-            $("#work").append(item.title);
-            $("#work").append(item.imgUrl);
-            $("#work").append(item.description);
+            let cardDiv = $("<div>");
+            cardDiv.addClass("card");
 
+            let cardHeader = $("<div>")
+            cardHeader.addClass("card-header text-center");
+            cardHeader.append(item.title);
+            cardDiv.append(cardHeader);
+
+            let cardBody = $("<div>");
+            cardBody.addClass("card-body");
+            let cardImg = $("<img>");
+            cardImg.attr("width","100%");
+            cardImg.attr("height","100%");
+            cardImg.attr("src", item.imgUrl);
+            cardBody.append(cardImg);
+            let cardText = $("<p>");
+            cardText.addClass("card-text text-center");
+            cardText.append(item.description);
+            cardBody.append(cardText);
+            cardDiv.append(cardBody);            
+            
+            $("#work").append(cardDiv);
         })
     }
     class project {
@@ -44,7 +65,6 @@ $(()=>{
           this.description = description;
         }
       }
-      
     recentProjects();
 
 
