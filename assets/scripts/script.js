@@ -58,7 +58,7 @@ $(()=>{
              " https://github.com/ScottMikul/Emplyee-Team-Generator" ),
 
              new project("Weather Forecast",
-             "./assets/images/WeatherDashBoard.png",
+             "./assets/images/WeatherDashBoard.PNG",
              "Displays the next 5 days of forecast using the OpenWeather Api",
              "https://github.com/ScottMikul/WeatherForecast",
              "https://scottmikul.github.io/WeatherForecast/"
@@ -80,7 +80,7 @@ $(()=>{
             ),
 
             new project("Day Callendar",
-                "./assets/images/WorkDayScheduler.png",
+                "./assets/images/WorkDayScheduler.PNG",
                 "Save an activity to hour slot and the result is stored on the browser",
                 "https://github.com/ScottMikul/daycallendar",
                 "https://scottmikul.github.io/daycallendar/"
