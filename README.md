@@ -5,7 +5,7 @@ This is my second portfolio page using bootswatch slate theme and jquery for clo
 ![Dev Portfolio](./dev-portfolio.PNG)
 
 # Demo Link
-[Dev Portfolio](https://scottmikul.github.io/dev-portfolio/) - The web framework used
+[Dev Portfolio](https://scottmikul.github.io/dev-portfolio/) 
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
